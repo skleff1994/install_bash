@@ -229,3 +229,15 @@ sudo apt-get -y autoremove
 #[/BASH UPDATE]
 
 source ~/.basrc
+
+###########################################################################################
+############ Paper Icon Theme ############################################################
+
+sudo apt install gnome-tweak-tool
+
+sudo add-apt-repository ppa:snwh/pulp
+sudo apt-get update
+sudo apt-get install paper-icon-theme paper-gtk-theme
+
+### install desktop image ################################################################
+sudo apt-get install ubuntu-wallpapers* 
