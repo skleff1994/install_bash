@@ -35,39 +35,39 @@ sudo apt-get install -y \
     python-rosinstall \
     python-rospkg \
     python-wstool \
-    ros-kinetic-audio-common \
-    ros-kinetic-catkin \
-    ros-kinetic-cmake-modules \
-    ros-kinetic-control-toolbox \
-    ros-kinetic-ecto \
-    ros-kinetic-gazebo-ros-control \
-    ros-kinetic-gazebo-ros-pkgs \
-    ros-kinetic-joint-state-publisher \
-    ros-kinetic-joy \
-    ros-kinetic-kdl-parser \
-    ros-kinetic-moveit \
-    ros-kinetic-moveit-core \
-    ros-kinetic-octomap \
-    ros-kinetic-octomap-msgs \
-    ros-kinetic-octomap-rviz-plugins \
-    ros-kinetic-ompl \
-    ros-kinetic-openni-* \
-    ros-kinetic-pcl-conversions \
-    ros-kinetic-qt-build \
-    ros-kinetic-realtime-tools \
-    ros-kinetic-robot-state-publisher \
-    ros-kinetic-ros-control \
-    ros-kinetic-ros-controllers \
-    ros-kinetic-tf-conversions \
-    ros-kinetic-tf-conversions \
-    ros-kinetic-robot-self-filter \
-    ros-kinetic-xacro \
-    ros-kinetic-tf2-bullet \
-    ros-kinetic-realtime-tools
+    ros-melodic-audio-common \
+    ros-melodic-catkin \
+    ros-melodic-cmake-modules \
+    ros-melodic-control-toolbox \
+   # ros-melodic-ecto \
+    ros-melodic-gazebo-ros-control \
+    ros-melodic-gazebo-ros-pkgs \
+    ros-melodic-joint-state-publisher \
+    ros-melodic-joy \
+    ros-melodic-kdl-parser \
+    ros-melodic-moveit \
+    ros-melodic-moveit-core \
+    ros-melodic-octomap \
+    ros-melodic-octomap-msgs \
+    ros-melodic-octomap-rviz-plugins \
+    ros-melodic-ompl \
+    ros-melodic-openni-* \
+    ros-melodic-pcl-conversions \
+   # ros-melodic-qt-build \
+    ros-melodic-realtime-tools \
+    ros-melodic-robot-state-publisher \
+    ros-melodic-ros-control \
+    ros-melodic-ros-controllers \
+    ros-melodic-tf-conversions \
+    ros-melodic-tf-conversions \
+    ros-melodic-robot-self-filter \
+    ros-melodic-xacro \
+    ros-melodic-tf2-bullet \
+    ros-melodic-realtime-tools
 
 # !!! does not work on docker, without clear error message
 #RUN apt-get install -y \
-#    ros-kinetic-turtlebot-*
+#    ros-melodic-turtlebot-*
 
 sudo rosdep init
 
@@ -84,7 +84,7 @@ sudo apt-get install -y bash-completion     `# Allow bash completion`\
                                            `# all available packages.`\
 		       autofs              `# Used to automount external device (usb, HD, ...)`\
 		       bc                  `# "JrBc", A calculator that can be used from the command-line`\
-		       imagemagick         `# Image manipulation (convert)`\
+		       imagemagick         `# Image manipulation (convert)`kinetic\
 		       f2c                 `# Fortran to C/C++ translator`\
 		       libf2c2-dev         `# To be used with f2c (fortran 2 c/c++)`\
 		       man                 `# on-line manual pager`\
